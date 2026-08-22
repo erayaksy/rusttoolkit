@@ -1,6 +1,7 @@
 const ALLOWED = new Set([
   'guided.news','eip.gg','tradeit.gg','images.steamusercontent.com','shared.akamai.steamstatic.com',
-  'files.facepunch.com','itemlevel.net','articles.rustoria.co','skins.cash','i.ytimg.com','lone.design'
+  'files.facepunch.com','itemlevel.net','articles.rustoria.co','skins.cash','i.ytimg.com','lone.design',
+  'www.rustbench.com','rustbench.com','rustly.com','www.rustly.com'
 ]);
 
 module.exports = async function handler(req, res) {
