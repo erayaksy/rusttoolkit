@@ -2,7 +2,8 @@ const ALLOWED = new Set([
   'guided.news','eip.gg','tradeit.gg','images.steamusercontent.com','shared.akamai.steamstatic.com',
   'files.facepunch.com','itemlevel.net','articles.rustoria.co','skins.cash','i.ytimg.com','lone.design',
   'www.rustbench.com','rustbench.com','rustly.com','www.rustly.com','www.playrust.nl','playrust.nl',
-  'gamerempire.net','www.gamerempire.net','staticg.sportskeeda.com'
+  'gamerempire.net','www.gamerempire.net','staticg.sportskeeda.com','www.bisecthosting.com','bisecthosting.com',
+  'www.4noobs.co','4noobs.co','cdn.4noobs.co','www.pcgamesn.com','pcgamesn.com','www.corrosionhour.com','corrosionhour.com'
 ]);
 
 module.exports = async function handler(req, res) {
