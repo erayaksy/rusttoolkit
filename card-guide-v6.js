@@ -68,7 +68,7 @@ const TIER4_VERIFIED = {
   'Missile Silo': {
     need: 'Red Card + 1 Fuse',
     rad: 'Çok yüksek radyasyon + ağır PvE',
-    image: 'https://www.rustbench.com/wiki/Monuments/missile-silo/20260517164131_1.jpg',
+    image: 'https://files.facepunch.com/damian/1b0311b1/nms_1.jpg',
     note: 'Missile Silo için 1 Red Card ve elevator için 1 Fuse gerekir. Beş katlı dikey akış nedeniyle sahte yüzey pinleri kaldırıldı.',
     flow: [
       ['SURFACE', 'Surface scientistleri temizle ve elevator girişini bul.'],
@@ -83,9 +83,10 @@ const TIER4_VERIFIED = {
 function tier4FlowMarkup(item){
   const meta = TIER4_VERIFIED[item.name];
   if (!meta) return '';
+  const imageSrc = typeof proxiedImage === 'function' ? proxiedImage(meta.image) : meta.image;
   return `<section class="tier4-verified-card">
     <div class="tier4-verified-head"><div><strong>ENDGAME ROUTE</strong><span>Tier 4 için yanlış pinli harita yerine doğrulanmış akış.</span></div></div>
-    <div class="tier4-overview-stage"><img src="${meta.image}" alt="${escapeHtml(item.name)} overview" loading="eager" referrerpolicy="no-referrer"></div>
+    <div class="tier4-overview-stage"><img src="${imageSrc}" alt="${escapeHtml(item.name)} overview" loading="eager"></div>
     <div class="tier4-badges"><span>${escapeHtml(meta.need)}</span><span>${escapeHtml(meta.rad)}</span></div>
     <p class="tier4-note-copy">${escapeHtml(meta.note)}</p>
     <div class="tier4-flow-list">${meta.flow.map((step, idx)=>`<div class="tier4-flow-step"><b>${idx+1}</b><div><strong>${escapeHtml(step[0])}</strong><span>${escapeHtml(step[1])}</span></div></div>`).join('')}</div>
