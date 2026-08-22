@@ -34,12 +34,12 @@ const M8_GROUPS = {
   },
   tier4: {
     label: 'Tier 4', accent: 'tier4', items: [
-      { name:'Launch Site', need:'Green Card + Red Card + 2 Fuse + Hazmat', image:'https://files.facepunch.com/paddy/20220302/launchsite2.jpg' },
-      { name:'Military Tunnels', need:'Blue Card + Red Card + Fuse + Hazmat', image:'https://www.rustbench.com/wiki/Monuments/military-tunnels/20260517164058_1.jpg' },
-      { name:'Small Oil Rig', need:'Blue Card + Fuse + Combat Gear', image:'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/ss_08a111660a92c33c10d62e74620d258c216fd0bb.1920x1080.jpg' },
-      { name:'Large Oil Rig', need:'Blue Card + Red Card + Fuse + Combat Gear', image:'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/ss_651097c65458ae555b42c42dd9667d7174397bdf.1920x1080.jpg' },
-      { name:'Underwater Labs', need:'Diving Gear + Layouta göre Cards/Fuse', image:'https://i.ytimg.com/vi/Yj38XRHpD_o/maxresdefault.jpg' },
-      { name:'Missile Silo', need:'Red Card + Fuse + Hazmat', image:'https://www.rustbench.com/wiki/Monuments/missile-silo/20260517164131_1.jpg' }
+      { name:'Launch Site', need:'Green Card + Red Card + 2 Fuse + Hazmat', image:'https://www.bisecthosting.com/blog/wp-content/uploads/2025/02/Rust-Launch-Site-1024x576.webp' },
+      { name:'Military Tunnels', need:'Blue Card + Red Card + Fuse + Hazmat', image:'https://tradeit.gg/blog/wp-content/uploads/2024/10/Military_Tunnels_Entrance-1024x576.webp' },
+      { name:'Small Oil Rig', need:'Blue Card + Fuse + Combat Gear', image:'https://www.4noobs.co/api/wiki/image-proxy?url=https%3A%2F%2Fcdn.4noobs.co%2FR4N%2Fwiki%2Fsmall-oil-rig.png' },
+      { name:'Large Oil Rig', need:'Blue Card + Red Card + Fuse + Combat Gear', image:'https://rustly.com/gameplay/large-oil-rig.webp' },
+      { name:'Underwater Labs', need:'Diving Gear + Layouta göre Cards/Fuse', image:'https://www.pcgamesn.com/wp-content/sites/pcgamesn/2021/09/rust-underwater-labs.jpg' },
+      { name:'Missile Silo', need:'Red Card + Fuse + Hazmat', image:'https://www.corrosionhour.com/wp-content/uploads/2023/05/rust-missile-silo-monument-nuclear-missile-hatch-closed-1-1536x789.jpg' }
     ]
   }
 };
