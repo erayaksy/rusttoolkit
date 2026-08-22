@@ -97,6 +97,10 @@ bindEvents = function(){
       step.scrollIntoView({behavior:'smooth',block:'center'});
     }
   }));
+  // v3 scrolls before re-render; do a second scroll after the new detail DOM exists so the title isn't hidden under sticky nav on mobile.
+  document.querySelectorAll('[data-open-monument],[data-guide-home],[data-guide-filter]').forEach(btn=>btn.addEventListener('click',()=>{
+    setTimeout(()=>window.scrollTo({top:0,left:0,behavior:'auto'}),0);
+  }));
 };
 
 render();
